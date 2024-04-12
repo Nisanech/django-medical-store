@@ -125,7 +125,3 @@ class EmployeeBankModel(models.Model):
     employee_id: int = models.ForeignKey(EmployeeModel, on_delete=models.CASCADE)
     added_on: str = models.DateTimeField(auto_now_add=True)
     objects = models.Manager()
-
-
-
-
